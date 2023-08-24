@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Connecting_firebase</string>
+    <string name="message">These are your details in our database.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#46fe"
+    tools:context=".WelcomeScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/text1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/message"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/text2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/text3"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Email"
+        />
+</LinearLayout>
